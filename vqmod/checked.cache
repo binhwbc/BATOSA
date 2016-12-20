@@ -171,3 +171,12 @@ admin/model/localisation/order_status.php
 admin/view/template/common/column_left.tpl
 admin/model/localisation/currency.php
 admin/view/template/common/dashboard.tpl
+admin/language/en-gb/blog/blog.php
+admin/view/template/blog/blog_list.tpl
+admin/language/en-gb/blog/blog_category.php
+admin/view/template/blog/blog_category_list.tpl
+admin/controller/blog/blog_setting.php
+admin/language/en-gb/blog/blog_setting.php
+admin/model/blog/blog_setting.php
+admin/model/localisation/language.php
+admin/view/template/blog/blog_setting.tpl
