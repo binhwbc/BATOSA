@@ -1,0 +1,638 @@
+ <modification>
+  <name>Power Image Manager</name>
+  <version>3.2.2</version>
+  <link>http://bit.ly/1vHShWu</link>
+  <author>Sharley's Web Development</author>
+  <code>1vHShWu</code>
+
+  <file path="admin/controller/common/header.php">
+    <operation>
+        <search><![CDATA[return $this->load->view('common/header]]></search>
+        <add position="before"><![CDATA[
+              $data['width'] = 800;
+              $data['height'] = 600;
+              $data['lang'] = 'en';
+              if ($this->config->get('pim_status')) {
+                $data['width'] = $this->config->get('pim_width');
+                $data['height'] = $this->config->get('pim_height');
+
+                if ($this->config->get('pim_language')) {
+                $data['lang'] = $this->config->get('pim_language');
+                }
+              }
+          $data['pim_status'] = $this->config->get('pim_status');
+        ]]></add>
+    </operation>
+<!--
+    <operation>
+        <search><![CDATA[$this->response->setOutput($this->load->view('common/filemanager.tpl', $data));]]></search>
+        <add  position="replace"><![CDATA[$this->response->setOutput($this->load->view('common/modalpim.tpl', $data));]]></add>
+    </operation>
+-->
+  </file>
+  <file path="admin/controller/common/footer.php">
+   <operation>
+     <search><![CDATA[return $this->load->view('common/footer]]></search>
+     <add  position="before"><![CDATA[
+              $data['width'] = 800;
+              $data['height'] = 600;
+              $data['lang'] = 'en';
+              if ($this->config->get('pim_status')) {
+                $data['width'] = $this->config->get('pim_width');
+                $data['height'] = $this->config->get('pim_height');
+
+                if ($this->config->get('pim_language')) {
+                $data['lang'] = $this->config->get('pim_language');
+                }
+              }
+          $data['pim_status'] = $this->config->get('pim_status');
+     ]]></add>
+   </operation>
+  </file>
+  <file path="admin/view/template/common/header.tpl">
+    <operation>
+        <search><![CDATA[<script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>]]></search>
+        <add position="before"><![CDATA[
+          <?php if ($pim_status) {?>
+          <!-- Power Image Manager -->
+          <link rel="stylesheet" href="view/javascript/jquery/jquery-ui-1.11.4.custom/jquery-ui.css" />
+          <script src="view/javascript/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+          <script type="text/javascript" src="view/javascript/pim/pim.min.js"></script>
+          <link rel="stylesheet" type="text/css" media="screen" href="view/stylesheet/pim/pim.min.css">
+          <link rel="stylesheet" type="text/css" media="screen" href="view/stylesheet/pim/theme.css">
+            <?php if ($lang) { ?>
+             <script type="text/javascript" src="view/javascript/pim/i18n/<?php echo $lang;?>.js"></script>
+            <?php } ?>
+          <!-- Power Image Manager -->
+          <?php } ?>
+        ]]></add>
+    </operation>
+  </file>
+  <file path="admin/controller/common/filemanager.php">
+<!--
+    <operation>
+        <search><![CDATA[$this->response->setOutput($this->load->view('common/filemanager.tpl', $data));]]></search>
+        <add  position="replace"><![CDATA[
+          $data['width'] = $this->config->get('pim_width');
+          $data['height'] = $this->config->get('pim_height');
+          $this->response->setOutput($this->load->view('common/modalpim.tpl', $data));]]></add>
+    </operation>
+-->
+    <operation>
+        <search><![CDATA[public function index() {]]></search>
+        <add position="before"><![CDATA[
+  public function pim() {
+  // Power Image Manager
+    if ($this->config->get('pim_status')) {
+      $this->load->language('common/filemanager');
+      $data['heading_title'] = $this->language->get('heading_title');
+      $this->document->setTitle($this->language->get('heading_title'));
+      $data['token'] = $this->session->data['token'];
+      $data['lang'] = 'en';
+      $data['width'] = $this->config->get('pim_width');
+      $data['height'] = $this->config->get('pim_height');
+      if ($this->config->get('pim_language')) {
+        $data['lang'] = $this->config->get('pim_language');
+      }
+      $data['header'] = $this->load->controller('common/header');
+      $data['column_left'] = $this->load->controller('common/column_left');
+      $data['footer'] = $this->load->controller('common/footer');
+
+
+      $this->response->setOutput($this->load->view('common/pim.tpl', $data));
+      return;
+    } else {
+      die('Power Image Manager is not installed. Please go back, install and configure the module in Extension > Modules.');
+    }
+   // Power Image Manager
+   }
+        ]]></add>
+    </operation>
+    <operation>
+      <search><![CDATA[public function index() {]]></search>
+      <add position="after"><![CDATA[
+    if ($this->config->get('pim_status')) {
+      $this->load->language('common/filemanager');
+      $data['heading_title'] = $this->language->get('heading_title');
+      $this->document->setTitle($this->language->get('heading_title'));
+      $data['token'] = $this->session->data['token'];
+      $data['lang'] = 'en';
+      $data['width'] = $this->config->get('pim_width');
+      $data['height'] = $this->config->get('pim_height');
+      if ($this->config->get('pim_language')) {
+        $data['lang'] = $this->config->get('pim_language');
+      }
+      $data['header'] = '';//$this->load->controller('common/header');
+      $data['footer'] = '';//$this->load->controller('common/footer');
+      $data['cke'] = '';
+			$data['productmanager'] = '';
+      $data['target'] = '';
+      $data['thumb']  = '';
+      if (isset($this->request->get['CKEditor'])) {
+        $data['cke'] = $this->request->get['CKEditor'];
+      }
+      if (isset($this->request->get['CKEditor'])) {
+        $data['cke'] = $this->request->get['CKEditor'];
+      }
+  		if (isset($this->request->get['CKEditorFuncNum'])) {
+  			$data['CKEditorFuncNum'] = $this->request->get['CKEditorFuncNum'];
+  		} else {
+  			$data['CKEditorFuncNum'] = '';
+  		}
+			if (isset($this->request->get['ckedialog'])) {
+        $data['ckedialog'] = $this->request->get['ckedialog'];
+      }
+			if (isset($this->request->get['productmanager'])) {
+        $data['productmanager'] = $this->request->get['productmanager'];
+      }
+
+      if ($this->request->server['HTTPS']) {
+        $data['base'] = HTTPS_SERVER;
+      } else {
+        $data['base'] = HTTP_SERVER;
+      }
+
+      if (isset($this->request->get['target'])) {
+        $data['target'] = $this->request->get['target'];
+      }
+      if (isset($this->request->get['thumb'])) {
+        $data['thumb'] = $this->request->get['thumb'];
+      }
+
+      $this->response->setOutput($this->load->view('common/pim.tpl', $data));
+      return;
+    }
+      ]]></add>
+    </operation>
+    <operation>
+        <search><![CDATA[public function delete() {]]></search>
+        <add position="before"><![CDATA[
+        // Power Image Manager
+    public function connector() {
+      include_once DIR_SYSTEM.'library/filemanager/elFinderConnector.class.php';
+      include_once DIR_SYSTEM.'library/filemanager/elFinder.class.php';
+      include_once DIR_SYSTEM.'library/filemanager/elFinderVolumeDriver.class.php';
+      $volumes = $this->config->get('pim_volumes');
+
+      include_once DIR_SYSTEM.'library/filemanager/volumes/LocalFileSystem.class.php';
+
+      $volumes = $this->config->get('pim_volumes');
+      if (empty($volumes)) { $volumes = array(); }
+      foreach ($volumes as $driver => $something) {
+        if ($driver == 'LocalFileSystem') {continue;}
+        if (file_exists(DIR_SYSTEM.'library/filemanager/volumes/'.$driver.'.class.php')) {
+          include_once DIR_SYSTEM.'library/filemanager/volumes/'.$driver.'.class.php';
+        }
+      }
+
+      if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
+                        $base = HTTPS_CATALOG."image/";
+                } else {
+                        $base = HTTP_CATALOG."image/";
+                }
+
+       $this->config->set('config_error_display', 0);
+       $this->config->set('config_error_log', 0);
+        function access($attr, $path, $data, $volume) {
+                return strpos(basename($path), '.') === 0       // if file/folder begins with '.' (dot)
+                        ? !($attr == 'read' || $attr == 'write')    // set read+write to false, other (locked+hidden) set to true
+                        :  null;                                    // else elFinder decide it itself
+        }
+        $tmbURL = DIR_IMAGE.'tmb/';
+
+        $plugins =  $this->config->get('pim_modules');
+        $binds = array ();
+        $plugin_options = array();
+        if (!empty($plugins)) {
+          foreach ($plugins as $key=>$val) {
+            $binds['upload.presave'][] =  'Plugin.'.$key.'.onUpLoadPreSave';
+            $plugin_data =  $this->config->get('pim_'.$key);
+            if (!empty($plugin_data)) {
+              foreach ($plugin_data as $data_key=>$data_val){
+                  if ($data_key == 'source') { // watermark source
+                    $data_val = DIR_IMAGE.$data_val;
+                  }
+                  $plugin_options[$key][$data_key] = $data_val;
+              }
+            }
+          }
+        }
+
+        if (empty($volumes)) { // default settings
+          $bits = array(
+           array(
+              'driver'          => 'LocalFileSystem',         // driver for accessing file system (REQUIRED)
+              'path'            => DIR_IMAGE.'catalog/',      // path to files (REQUIRED)
+              'URL'             => $base.'catalog/',          // URL to files (REQUIRED)
+              'accessControl'   => 'access',                  // disable and hide dot starting files (OPTIONAL)
+              'fileMode'        => 0644,                       // new files mode
+              'dirMode'         => 0755,                       // new folders mode
+              'uploadAllow'     => array('image', 'application/pdf'),
+              'uploadDeny'      => array('all'),
+              'uploadOrder'     => 'deny,allow',
+              'tmbBgColor'      => 'transparent',             // transparent background
+              'tmbCrop'         => 'false',                   // do not crop
+              'tmbSize'         => '59',                      // default tmb size.
+              'copyOverwrite'   => $this->config->get('pim_copyOverwrite'),
+              'uploadOverwrite' => $this->config->get('pim_uploadOverwrite'),
+              'uploadMaxSize'   => ''.$this->config->get('pim_uploadMaxSize').''.$this->config->get('pim_uploadMaxType'),
+            ),
+         );
+        } else {
+          $bits = array();
+          $i=0;
+          foreach ($volumes as $driver => $volume) {
+            foreach ($volume as $vkey => $vdata) {
+              if ($vdata['status']) {
+                $bits[$i]['driver'] = $driver;
+                $bits[$i]['uploadAllow']     = array('image', 'application/pdf');
+                $bits[$i]['uploadDeny']      = array('all');
+                $bits[$i]['uploadOrder']     = 'deny,allow';
+                $bits[$i]['accessControl']   = 'access';
+                $bits[$i]['fileMode']        = 0644;
+                $bits[$i]['dirMode']         = 0755;
+                $bits[$i]['tmpPath']         = '.tmp';
+                $bits[$i]['tmbBgColor']      = 'transparent';
+                $bits[$i]['tmbCrop']         = 'false';
+                $bits[$i]['tmbSize']         = '59';
+                $bits[$i]['copyOverwrite']   = $this->config->get('pim_copyOverwrite');
+                $bits[$i]['uploadOverwrite'] = $this->config->get('pim_uploadOverwrite');
+                $bits[$i]['uploadMaxSize']   = ''.$this->config->get('pim_uploadMaxSize').''.$this->config->get('pim_uploadMaxType');
+
+                foreach ($vdata as $var_key => $var_val) {
+
+                  $bits[$i][$var_key] = $var_val;
+                  if ($driver == 'FTP') {
+                       $bits[$i]['tmbPath']      = 'tmb';
+                       $bits[$i]['tmbURL']       = dirname($_SERVER['PHP_SELF']).'/tmb';
+                       $bits[$i]['tmpPath']      = '/tmp';
+                  }
+                }
+                $i++;
+              }
+            }
+          }
+        }
+
+        $roots['roots'] = $bits;
+        $opts = $roots;
+
+
+        if (!empty($binds)) {
+          $opts['bind'] = $binds;
+        }
+        if (!empty($plugin_options)) {
+          $opts['plugin'] = $plugin_options;
+        }
+
+        $connector = new elFinderConnector(new elFinder($opts));
+        $connector->run();
+    }
+        // Power Image Manager
+        ]]></add>
+    </operation>
+  </file>
+<file path="admin/controller/catalog/product.php">
+
+    <operation>
+        <search><![CDATA[private $error = array();]]></search>
+        <add position="after"><![CDATA[
+  // multi image uploader
+        public function pimage() {
+          $this->load->model('tool/image');
+          $json = array();
+          if (isset($this->request->get['image'])) {
+            $this->request->get['image'] = urldecode($this->request->get['image']);
+          } else {
+            return;
+          }
+      		if (!is_file(DIR_IMAGE . $this->request->get['image'])) {
+      			if (is_file(DIR_IMAGE ."catalog/". $this->request->get['image'])) {
+        			$this->request->get['image'] = 'catalog/'.$this->request->get['image'];
+        		} else {
+          		return;
+        		}
+      		}
+
+          if (isset($this->request->get['image'])) {
+              $json['abs']  = $this->request->get['image'];
+              $json['file'] = $this->model_tool_image->resize(html_entity_decode($this->request->get['image'], ENT_QUOTES, 'UTF-8'), 100, 100);
+
+          		$this->response->addHeader('Content-Type: application/json');
+              $this->response->setOutput(json_encode($json));
+          }
+        }
+        // multi image uploader
+
+        ]]></add>
+    </operation>
+    <operation>
+        <search><![CDATA[function getForm() {]]></search>
+        <add  position="after"><![CDATA[
+          $data['pim_miu'] = false;
+          $data['pim_status'] = false;
+          $data['pim_miu']  = $this->config->get('pim_miu');
+          $data['pim_status'] = $this->config->get('pim_status');
+        ]]></add>
+    </operation>
+  </file>
+  <file path="admin/view/template/catalog/product_form.tpl">
+        <operation>
+            <search><![CDATA[<td class="text-right"><?php echo $entry_sort_order; ?></td>]]></search>
+            <add position="before"><![CDATA[
+            <?php if ($pim_status && !$pim_miu) {?>
+            <td class="text-left"><?php echo 'Default Image'; ?></td>
+      <?php } ?>
+            ]]></add>
+        </operation>
+        <operation>
+      <search>
+        <![CDATA[<td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"]]>
+      </search>
+      <add position="before">
+        <![CDATA[
+        <?php if ($pim_status && !$pim_miu) {?>
+          <td class="text-right"><input type="radio" name="def_img" value="<?php  if (isset($product_image['image'])) { echo $product_image['image']; } ?>" class="form-control" /></td>
+        <?php } ?>
+        ]]>
+      </add>
+    </operation>
+    <operation>
+        <search><![CDATA[html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"]]></search>
+        <add position="before"><![CDATA[
+         <?php if ($pim_status && !$pim_miu) {?>
+          html += '<td class="text-right"><input type="radio" name="def_img" id="radio-input-image' + image_row + '" value="" disabled="disabled" class="form-control"></td>';
+         <?php } ?>
+        ]]></add>
+    </operation>
+    <operation>
+        <search><![CDATA[<?php echo $footer; ?> ]]></search>
+        <add position="before"><![CDATA[
+        <?php if ($pim_status) {?>
+        <script type="text/javascript">
+            if (typeof addMultiImage != 'function') {
+
+              function addMultiImage(img) {
+                    if (image_row>0) {
+                        var k = (image_row-1);
+
+                        if ($('#input-image'+k).val() == "") {
+                            $('#image-row'+k).remove();
+                        }
+                    }
+                      $.ajax({
+                        url: 'index.php?route=catalog/product/pimage&token=<?php echo $token; ?>&image=' + encodeURIComponent(img),
+                        dataType: 'json',
+                        success: function(json) {
+
+                          if (json.file) {
+                          html  = '<tr id="image-row' + image_row + '">';
+                          html += '  <td class="text-left"><a href="" id="thumb-image' + image_row + '"data-toggle="image" class="img-thumbnail">';
+                          html += '<img src="'+json.file+'" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" />';
+                          html+='<input type="hidden" name="product_image[' + image_row + '][image]" value="' + decodeURIComponent(json.abs) + '" id="input-image' + image_row + '" /></td>';
+                          html += '<td class="text-right"><input type="radio" name="def_img" value="'+json.abs+'" class="form-control"></td>';
+
+                          html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]" value="" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" /></td>';
+                          html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
+                          html += '</tr>';
+
+
+                          $('#images tbody').append(html);
+                          image_row++;
+                        }
+                      }
+                  });
+              }
+            }
+        </script>
+      <?php } ?>
+        ]]></add>
+    </operation>
+    <operation>
+        <search><![CDATA[<button type="button" onclick="addImage();"]]></search>
+        <add  position="replace"><![CDATA[<?php if ($pim_status){?><a type="button" data-toggle="manager" title="<?php echo 'Power Image Manager'; ?>" class="btn btn-success"><i class="fa fa-upload"></i> <?php echo 'Power Image Manager'; ?></a>&nbsp;<?php } ?><button type="button" onclick="addImage();"]]></add>
+    </operation>
+  </file>
+
+  <file path="admin/view/template/common/footer.tpl">
+    <operation>
+        <search><![CDATA[<footer id="footer">]]></search>
+        <add position="before"><![CDATA[
+          <?php if ($pim_status) {?>
+<script type="text/javascript">
+
+// Power Image Manager
+$(document).ready(function() {
+
+  $(document).undelegate('a[data-toggle=\'image\']', 'click');
+  // Power Image Manager
+  $(document).delegate('a[data-toggle=\'image\']', 'click', function(e) {
+    e.preventDefault();
+    var element = this;
+    $(element).popover({
+      html: true,
+      placement: 'right',
+      trigger: 'manual',
+      content: function() {
+        return '<button type="button" id="button-image" class="btn btn-primary"><i class="fa fa-pencil"></i></button> <button type="button" id="button-clear" class="btn btn-danger"><i class="fa fa-trash-o"></i></button>';
+      }
+    });
+    location.hash = 'pim';
+    $(element).popover('toggle');
+
+    $('#button-image').on('click', function() {
+      $(element).popover('hide');
+      var target = $(element).parent().find('input').attr('id');
+      var thumb = $(element).attr('id');
+      var fm = $('<div/>').dialogelfinder({
+        url : 'index.php?route=common/filemanager/connector&token=' + getURLVar('token'),
+        lang : '<?php echo $lang;?>',
+        width : <?php echo $width;?>,
+        height: <?php echo $height;?>,
+        destroyOnClose : true,
+
+        uiOptions : {toolbar : [['home', 'back', 'forward'],['reload'],['mkdir', 'upload'],['open', 'download', 'getfile'],['info'],['quicklook'],['copy', 'cut', 'paste'],['rm'],['duplicate', 'rename', 'edit', 'resize'],['extract', 'archive','multiupload'],['search'],['view'],['help']]},
+
+        contextmenu: {navbar: ["open", "|", "copy", "cut", "paste", "duplicate", "|", "rm", "|", "info"],cwd: ["reload", "back", "|", "upload", "mkdir", "mkfile", "paste", "|", "sort", "|", "info"],files: ["getfile", "|", "open", "quicklook", "|", "download", "|", "copy", "cut", "paste", "duplicate", "|", "rm", "|", "edit", "rename", "resize", "|", "archive","multiupload", "extract", "|", "info"]},
+
+        getFileCallback : function(files, fm) {
+          a = files.url;
+
+					b = a.replace('<?php echo HTTPS_CATALOG."image/";?>','');
+					b = b.replace('<?php echo HTTP_CATALOG."image/";?>','');
+
+
+          $('#'+thumb).find('img').attr('src', files.tmb);
+          $('#'+target).val(decodeURIComponent(b));
+          $('#radio-'+target).removeAttr('disabled');
+          $('#radio-'+target).val(b);
+        },
+        commandsOptions : {
+          getfile : {
+            oncomplete : 'close',
+          }
+        }
+      }).dialogelfinder('instance');
+      return;
+    });
+
+    $('#button-clear').on('click', function() {
+      $(element).find('img').attr('src', $(element).find('img').attr('data-placeholder'));
+      $(element).parent().find('input').attr('value', '');
+      $(element).popover('hide');
+    });
+  });
+
+  $(document).delegate('a[data-toggle=\'manager\']', 'click', function(e) {
+    e.preventDefault();
+    var fm = $('<div/>').dialogelfinder({
+      url : 'index.php?route=common/filemanager/connector&token=' + getURLVar('token'),
+      lang : '<?php echo $lang;?>',
+      width : <?php echo $width;?>,
+      height: <?php echo $height;?>,
+      destroyOnClose : true,
+
+      uiOptions : {toolbar : [['home', 'back', 'forward'],['reload'],['mkdir', 'upload'],['open', 'download', 'getfile'],['info'],['quicklook'],['copy', 'cut', 'paste'],['rm'],['duplicate', 'rename', 'edit', 'resize'],['extract', 'archive','multiupload', 'sort'],['search'],['view'],['help']]},
+
+      contextmenu: {navbar: ["open", "|", "copy", "cut", "paste", "duplicate", "|", "rm", "|", "info"],cwd: ["reload", "back", "|", "upload", "mkdir", "mkfile", "paste", "|", "sort", "|", "info"],files: ["getfile", "|", "open", "quicklook", "|", "download", "|", "copy", "cut", "paste", "duplicate", "|", "rm", "|", "edit", "rename", "resize", "|", "archive","multiupload", "extract", "|", "info"]},
+
+      getFileCallback : function(files, fm) {
+        a = files.url;
+					b = a.replace('<?php echo HTTPS_CATALOG."image/";?>','');
+					b = b.replace('<?php echo HTTP_CATALOG."image/";?>','');
+        addMultiImage(decodeURIComponent(b));
+      },
+      commandsOptions : {
+        getfile : {
+          oncomplete : 'close',
+          folders : false
+        }
+      }
+    }).dialogelfinder('instance');
+  });
+
+ $(document).undelegate('button[data-toggle=\'image\']', 'click');
+
+    $(document).delegate('button[data-toggle=\'image\']', 'click', function(e) {
+			e.preventDefault();
+      location.hash = '';
+      var fm = $('<div/>').dialogelfinder({
+        url : 'index.php?route=common/filemanager/connector&token=' + getURLVar('token'),
+        lang : '<?php echo $lang;?>',
+        width : <?php echo $width;?>,
+        height: <?php echo $height;?>,
+        destroyOnClose : true,
+        getFileCallback : function(files, fm) {
+          var range, sel = window.getSelection();
+          if (sel.rangeCount) {
+            var img = document.createElement('img');
+            a = files.url;
+            b = a.replace(files.baseUrl,'');
+            img.src = files.baseUrl+''+b;
+            range = sel.getRangeAt(0);
+            range.insertNode(img);
+          }
+        },
+        commandsOptions : {
+          getfile : {
+            oncomplete : 'close',
+            folders : false
+          }
+        }
+      }).dialogelfinder('instance');
+    });
+
+
+
+});
+<?php if (version_compare(VERSION, '2.2.0.0') >= 0) {?>
+// Override summernotes image manager
+	$('.summernote').each(function() {
+		var element = this;
+
+		$(element).summernote({
+			disableDragAndDrop: true,
+			height: 300,
+			toolbar: [
+				['style', ['style']],
+				['font', ['bold', 'underline', 'clear']],
+				['fontname', ['fontname']],
+				['color', ['color']],
+				['para', ['ul', 'ol', 'paragraph']],
+				['table', ['table']],
+				['insert', ['link', 'pimimage', 'video']],
+				['view', ['fullscreen', 'codeview', 'help']]
+			],
+			buttons: {
+    			pimimage: function() {
+					var ui = $.summernote.ui;
+
+					// create button
+					var button = ui.button({
+						contents: '<i class="fa fa-image" />',
+						tooltip: $.summernote.lang[$.summernote.options.lang].image.image,
+						click: function () {
+							$('#modal-image').remove();
+							var fm = $('<div/>').dialogelfinder({
+								url : 'index.php?route=common/filemanager/connector&token=' + getURLVar('token'),
+								lang : '<?php echo $lang;?>',
+								width : <?php echo $width;?>,
+								height: <?php echo $height;?>,
+								destroyOnClose : true,
+								getFileCallback : function(files, fm) {
+										var img = document.createElement('img');
+										a = files.url;
+										//b = a.replace(files.baseUrl,'');
+										$(element).summernote('insertImage', a);
+								},
+								commandsOptions : {
+									getfile : {
+										oncomplete : 'close',
+										folders : false
+									}
+								}
+							}).dialogelfinder('instance');
+						}
+					});
+
+					return button.render();
+				}
+  			}
+		});
+	});
+<?php } ?>
+// Power Image Manager
+<?php } ?>
+</script>
+        ]]></add>
+    </operation>
+  </file>
+  <file path="admin/model/catalog/product.php">
+    <operation>
+      <search ><![CDATA[if (isset($data['product_store'])) {]]></search>
+      <add position="before"><![CDATA[
+        if (isset($data['def_img']) && $data['def_img'] != "" && !$this->config->get('pim_miu')) {
+           $q="UPDATE " . DB_PREFIX . "product SET image = '" . $this->db->escape($data['def_img']) . "' WHERE product_id = '" . (int)$product_id . "'";
+           $this->db->query($q);
+        }
+        ]]>
+      </add>
+    </operation>
+    <operation>
+        <search index="0"><![CDATA[foreach ($data['product_image'] as $product_image) {]]></search>
+        <add  position="after"><![CDATA[
+              if ($this->config->get('pim_deletedef') && isset($data['def_img']) && $data['def_img'] == $product_image['image']) { continue;}
+        ]]></add>
+    </operation>
+    <operation>
+        <search index="1"><![CDATA[$this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");]]></search>
+        <add  position="before"><![CDATA[
+              if ($this->config->get('pim_deletedef') && isset($data['def_img'])) {
+                $this->db->query("DELETE FROM " . DB_PREFIX . "product_image WHERE product_id = '" . (int)$product_id . "' AND image = '" . $this->db->escape($data['image']) . "'");
+              }
+        ]]></add>
+    </operation>
+  </file>
+   
+
+</modification>

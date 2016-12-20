@@ -1,0 +1,6465 @@
+2016-12-19 23:25:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:27:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+VQmod - Processing 'Bugfixes for ControllerUserUserPermission'
+VQmod - Done 'Bugfixes for ControllerUserUserPermission'
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:27:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+VQmod - Processing 'Bugfixes for ControllerUserUserPermission'
+VQmod - Done 'Bugfixes for ControllerUserUserPermission'
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:28:04 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:30:09 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:32:25 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:33:00 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:33:04 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:33:05 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-19 23:35:54 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-19 23:36:12 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-19 23:36:13 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-19 23:36:20 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-19 23:36:59 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-19 23:41:43 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:23:16 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:31:02 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:42:33 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:43:33 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:43:37 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:43:38 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:45:42 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:46:12 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:53:58 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:55:29 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:56:12 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:56:58 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:56:59 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:58:11 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 0:58:13 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:00:01 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:00:25 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:02:00 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:02:38 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:03:41 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:05:15 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:05:28 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:05:31 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:06:11 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:06:40 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Power Image Manager
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header
+LINE: 149
+
+FILE: admin/controller/common/footer.php
+CODE: return $this->load->view('common/footer
+LINE: 27
+
+FILE: admin/view/template/common/header.tpl
+CODE: <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+LINE: 28
+
+FILE: admin/controller/common/filemanager.php
+CODE: public function index() {
+LINE: 29
+CODE: public function index() {
+LINE: 82
+CODE: public function delete() {
+LINE: 554
+
+FILE: admin/controller/catalog/product.php
+CODE: private $error = array();
+LINE: 31
+CODE: function getForm() {
+LINE: 578
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <td class="text-right"><?php echo $entry_sort_order; ?></td>
+LINE: 832
+CODE: <td class="text-right"><input type="text" name="product_image[<?php echo $image_row; ?>][sort_order]"
+LINE: 846
+CODE: html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]"
+LINE: 1372
+CODE: <?php echo $footer; ?>
+LINE: 1468
+CODE: <button type="button" onclick="addImage();"
+LINE: 855
+
+FILE: admin/view/template/common/footer.tpl
+CODE: <footer id="footer">
+LINE: 188
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_store'])) {
+LINE: 21
+LINE: 155
+CODE: foreach ($data['product_image'] as $product_image) {
+LINE: 76
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_to_download WHERE product_id = '" . (int)$product_id . "'");
+LINE: 345
+CODE: if ($catalog) {
+LINE: 280
+
+FILE: admin/view/template/common/column_left.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/language/vi-vn/common/column_left.php
+CODE: <?php
+LINE: 3
+----------------------------------------------------------------
+2016-12-20 1:11:05 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:11:07 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:15:14 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:16:17 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:16:34 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:17:43 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:18:41 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:27:41 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:28:43 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:29:36 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:33:39 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:36:03 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:36:05 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 1:40:54 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:00:17 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:02:50 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:02:51 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:15 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:35 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:36 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:38 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:39 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:48 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:26:50 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:32:57 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:54:15 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2016-12-20 2:58:10 - Another VQmod 2.4.0 or later is already installed.
+The files from vqmod/xml/*.xml are processed by the other VQmod!
+----------------------------------------------------------------
+MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Add-links-to-admin-menu
+
+FILE: admin/controller/common/column_left.php
+CODE: $catalog = array();
+LINE: 52
+CODE: public function index() {
+LINE: 119
+----------------------------------------------------------------
+MOD: AutoDetect by iSenseLabs
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 39
+CODE: </head>
+LINE: 46
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 41
+
+FILE: catalog/controller/startup/startup.php
+CODE: $this->load->model('localisation/language');
+LINE: 74
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------

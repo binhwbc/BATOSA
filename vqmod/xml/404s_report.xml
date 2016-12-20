@@ -1,0 +1,20 @@
+<modification>
+
+	<id>404s Report</id>
+	<version>1.0.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>ovife21</author>
+	
+	<file name="catalog/controller/common/seo_url.php,catalog/controller/startup/seo_url.php" error="skip">
+		<operation error="skip">
+			<search position="after"><![CDATA[$this->request->get['route'] = 'information/information';]]></search>
+			<add><![CDATA[
+			}
+			}
+			if ($this->request->get['route'] == 'error/not_found') {if (true) {$this->db->query("insert into " . DB_PREFIX . "404s_report values ('".$this->request->get['_route_']."',now());");]]></add>
+		</operation>		
+				
+	</file>	
+	
+</modification>
+

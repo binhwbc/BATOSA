@@ -1,0 +1,23 @@
+
+<modification>
+
+	<id>Blog Canonical</id>
+	<version>1.0.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>binh@wbc.vn</author>
+
+  <file name="catalog/controller/blog/category.php">
+  <operation>
+    <search position="before"><![CDATA[$data['column_left']]]></search>
+    <add><![CDATA[
+      $canonicals = $this->config->get('canonicals');
+      if (isset($canonicals['canonicals_categories'])) {
+        $this->document->removeLink('canonical');
+        $pathx = explode('_', $this->request->get['blogpath']);
+        $pathx = end($pathx);
+        $this->document->addLink($this->url->link('blog/category', 'blogpath=' . $pathx .((isset($page) && ($page > 1))?('&page='.$page):'') ), 'canonical');
+        }
+    ]]></add>
+  </operation>
+</file>
+</modification>

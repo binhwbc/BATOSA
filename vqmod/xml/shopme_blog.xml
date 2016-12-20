@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>OPENCART BLOG</id>
+	<version>1.0</version>
+	<vqmver required="true">2.5.0</vqmver>
+	<author>Karl Pers - openthemer@gmail.com</author>
+
+	<file name="catalog/controller/startup/seo_url.php">
+		<operation error="log">
+			<search position="before"><![CDATA[
+			if ($query->row['query'] && $url[0]
+			]]></search>
+			<add><![CDATA[
+			if ($url[0] == 'blog_id') {$this->request->get['blog_id'] = $url[1]; }
+			if ($url[0] == 'blog_category_id') {
+			if (!isset($this->request->get['blogpath'])) {
+			$this->request->get['blogpath'] = $url[1];
+				} else {
+			$this->request->get['blogpath'] .= '_' . $url[1];
+			}}
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search position="replace"><![CDATA[
+			!= 'category_id' && $url[0]
+			]]></search>
+			<add><![CDATA[
+			!= 'category_id' && $url[0] != 'blog_category_id' && $url[0] != 'blog_id' && $url[0]
+			]]></add>
+		</operation>
+
+		<operation error="log">
+			<search position="after"><![CDATA[
+			$this->request->get['route'] = 'product/product';
+			]]></search>
+			<add><![CDATA[
+			} elseif (isset($this->request->get['blog_id'])) {
+			$this->request->get['route'] = 'blog/blog';
+			} elseif ($this->request->get['_route_'] ==  'blog_home') {
+			$this->request->get['route'] = 'blog/home';
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="after"><![CDATA[
+			$this->request->get['route'] = 'product/category';
+			]]></search>
+			<add><![CDATA[
+			} elseif (isset($this->request->get['blogpath'])) {
+			$this->request->get['route'] = 'blog/category';
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="replace"><![CDATA[
+			($data['route'] == 'information/information' && $key == 'information_id'))
+			]]></search>
+			<add><![CDATA[
+			($data['route'] == 'information/information' && $key == 'information_id') || ($data['route'] == 'blog/blog' && $key == 'blog_id'))
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="before"><![CDATA[
+			} elseif ($key == 'path') {
+			]]></search>
+			<add><![CDATA[
+			} elseif ($key == 'blogpath') {
+			$blog_categories = explode('_', $value);
+			foreach ($blog_categories as $category) {
+			$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = 'blog_category_id=" . (int)$category . "'");
+			if ($query->num_rows) {
+			$url .= '/' . $query->row['keyword'];
+			} else {
+			$url = '';
+			break;
+			}}
+			unset($data[$key]);
+			} elseif (isset($data['route']) && $data['route'] ==   'blog/home') {
+			$blog_home = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE `query` = 'blog/home'");
+			if ($blog_home->num_rows) {
+			$url .= '/' . $blog_home->row['keyword'];
+			} else {
+			$url = '';
+			}
+			]]></add>
+		</operation>
+	</file>
+</modification>

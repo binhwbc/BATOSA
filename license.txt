@@ -1,0 +1,35 @@
+==============================================================================
+License Agreement
+
+Author: Ovidiu Fechete
+E-mail: ovife21@gmail.com
+
+==============================================================================
+
+License:
+This extension is provided for the default installation of OpenCart. No
+guarantee is provided that it will work with other customizations you've made.
+
+By purchasing this extension, you are agreeing to use it with the applicable
+number of OpenCart installations for which you purchased it. You may not use
+it for more installations than the software license purchased.
+
+No matter the license purchased, re-sale or redistribution of this extension
+is not allowed. Licenses allowing multiple installations are for your own
+personal installations only.
+
+Disclaimer:
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+THE POSSIBILITY OF SUCH DAMAGE. 
+
+IF YOU DO NOT AGREE TO THIS DISCLAIMER AND LICENSE, YOU MAY NOT USE THIS
+SOFTWARE.

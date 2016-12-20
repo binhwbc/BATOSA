@@ -1,0 +1,156 @@
+<modification>
+
+	<id>Blog Multi Language SEO Keywords</id>
+	<version>1.0.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>binh@wbc.vn</author>
+<file name="admin/view/template/blog/blog_form.tpl">
+  <operation>
+    <search position="replace"><![CDATA[<input type="text" name="keyword" class="form-control" value="<?php echo $keyword; ?>" />]]></search>
+    <add><![CDATA[
+    <?php foreach ($languages as $language) { ?>
+    <input type="text" name="keyword[<?php echo $language['language_id']; ?>]" value="<?php  if (isset($keyword[$language['language_id']])) { echo $keyword[$language['language_id']]; } ?>" class="form-control" />
+    <?php if (VERSION >= '2.2.0.0') { ?>
+   <img src="language/<?php echo $language['code']; ?>/<?php echo $language['code']; ?>.png" title="<?php echo $language['name']; ?>" />
+   <?php } else { ?>
+   <img src="language/<?php echo $language['code']; ?>/<?php echo $language['code']; ?>.png" title="<?php echo $language['name']; ?>" />
+   <?php }  ?>
+   <br>
+    <?php } ?>
+    ]]></add>
+  </operation>
+</file>
+
+<file name="admin/controller/blog/blog.php">
+  <operation>
+    <search position="replace"><![CDATA[$data['keyword'] = $blog_info['keyword'];]]></search>
+    <add><![CDATA[$data['keyword'] = $this->model_blog_blog->getKeyWords($this->request->get['blog_id']);]]></add>
+  </operation>
+  <operation>
+    <search position="replace"><![CDATA[$data['keyword'] = '';]]></search>
+    <add><![CDATA[$data['keyword'] = array();]]></add>
+  </operation>
+  <operation error="skip">
+    <search position="replace"><![CDATA[utf8_strlen($this->request->post['keyword'])]]></search>
+    <add><![CDATA[utf8_strlen(current($this->request->post['keyword']))]]></add>
+  </operation>
+  <operation error="skip">
+    <search position="replace"><![CDATA[getUrlAlias($this->request->post['keyword'])]]></search>
+    <add><![CDATA[getUrlAlias(current($this->request->post['keyword']))]]></add>
+  </operation>
+  <operation>
+    <search position="after"><![CDATA[$this->document->setTitle($this->language->get('heading_title'));]]></search>
+    <add><![CDATA[
+    $query = $this->db->query("SHOW COLUMNS FROM " . DB_PREFIX . "url_alias WHERE field = 'language_id'");
+
+    $exists = 0;
+    foreach ($query->rows as $index) {$exists++;}
+
+    if (!$exists) {$this->db->query("ALTER TABLE " . DB_PREFIX . "url_alias ADD COLUMN `language_id` int(11) NOT NULL DEFAULT '". $this->config->get('config_language_id') ."';");}
+
+    ]]></add>
+  </operation>
+</file>
+
+<file name="admin/model/blog/blog.php">
+  <operation>
+    <search position="replace"><![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'blog_id=" . (int)$blog_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");]]></search>
+    <add><![CDATA[
+    foreach ($data['keyword'] as $language_id => $keyword) {
+      if ($keyword) {$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'blog_id=" . (int)$blog_id . "', keyword = '" . $this->db->escape($keyword) . "', language_id = " . $language_id);}
+    }
+    ]]></add>
+  </operation>
+  <operation error="skip">
+    <search position="replace"><![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'blog_id=" . (int) $blog_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");]]></search>
+    <add><![CDATA[
+    foreach ($data['keyword'] as $language_id => $keyword) {
+      if ($keyword) {$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'blog_id=" . (int)$blog_id . "', keyword = '" . $this->db->escape($keyword) . "', language_id = " . $language_id);}
+    }
+    ]]></add>
+  </operation>
+
+  <operation>
+    <search position="replace"><![CDATA[, (SELECT keyword FROM " . DB_PREFIX . "url_alias WHERE query = 'blog_id=" . (int)$blog_id . "') AS keyword]]></search>
+    <add><![CDATA[]]></add>
+  </operation>
+  <operation>
+    <search position="before"><![CDATA[public function getBlog($blog_id) {]]></search>
+    <add><![CDATA[
+    public function getKeyWords($blog_id) {
+      $keywords = array();
+
+      $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE query = 'blog_id=" . (int)$blog_id . "'");
+
+      foreach ($query->rows as $result) {
+        $keywords[$result['language_id']] = $result['keyword'];
+      }
+
+      return $keywords;
+    }
+    ]]></add>
+  </operation>
+</file>
+
+<!--Blog Category-->
+
+<file name="admin/controller/blog/blog_category.php">
+  <operation>
+    <search position="replace"><![CDATA[$data['keyword'] = $blog_category_info['keyword'];]]></search>
+    <add><![CDATA[$data['keyword'] = $this->model_blog_blog_category->getKeyWords($this->request->get['blog_category_id']);]]></add>
+  </operation>
+  <operation>
+    <search position="replace"><![CDATA[$data['keyword'] = '';]]></search>
+    <add><![CDATA[$data['keyword'] = array();]]></add>
+  </operation>
+</file>
+
+<file name="admin/model/blog/blog_category.php">
+  <operation>
+    <search position="replace"><![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'blog_category_id=" . (int)$blog_category_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");]]></search>
+    <add><![CDATA[
+    foreach ($data['keyword'] as $language_id => $keyword) {
+      if ($keyword) {$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'blog_category_id=" . (int)$blog_category_id . "', keyword = '" . $this->db->escape($keyword) . "', language_id = " . $language_id);}
+    }
+    ]]></add>
+  </operation>
+  <operation error="skip">
+    <search position="replace"><![CDATA[, (SELECT keyword FROM " . DB_PREFIX . "url_alias WHERE query = 'blog_category_id=" . (int)$blog_category_id . "') AS keyword]]></search>
+    <add><![CDATA[]]></add>
+  </operation>
+  <operation error="skip">
+    <search position="replace"><![CDATA[, (SELECT DISTINCT keyword FROM " . DB_PREFIX . "url_alias WHERE query = 'blog_category_id=" . (int)$blog_category_id . "') AS keyword]]></search>
+    <add><![CDATA[]]></add>
+  </operation>
+  <operation>
+    <search position="before"><![CDATA[public function getBlogCategory($blog_category_id) {]]></search>
+    <add><![CDATA[
+    public function getKeyWords($blog_category_id) {
+      $keywords = array();
+
+      $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE query = 'blog_category_id=" . (int)$blog_category_id . "'");
+
+      foreach ($query->rows as $result) {
+        $keywords[$result['language_id']] = $result['keyword'];
+      }
+      return $keywords;
+    }
+    ]]></add>
+  </operation>
+</file>
+
+
+<file name="admin/view/template/blog/blog_category_form.tpl">
+  <operation>
+    <search position="replace"><![CDATA[<input type="text" name="keyword" value="<?php echo $keyword; ?>" class="form-control"/>]]></search>
+    <add><![CDATA[
+    <?php foreach ($languages as $language) { ?>
+    <input type="text" name="keyword[<?php echo $language['language_id']; ?>]" value="<?php if (isset($keyword[$language['language_id']])) { echo $keyword[$language['language_id']]; } ?>" placeholder="<?php echo $entry_keyword; ?>" id="input-keyword" class="form-control" />
+     <img src="language/<?php echo $language['code']; ?>/<?php echo $language['code']; ?>.png" title="<?php echo $language['name']; ?>" />
+     <br>
+    <?php } ?>
+    ]]></add>
+  </operation>
+</file>
+
+</modification>
